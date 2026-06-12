@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.part_123.MessageTest" time="0.153" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.part_123.MessageTest" time="0.045" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin"/>
-    <property name="sun.java.command" value="C:\Users\masha\AppData\Local\Temp\surefire966813014349785877\surefirebooter-20260525193450010_3.jar C:\Users\masha\AppData\Local\Temp\surefire966813014349785877 2026-05-25T19-34-49_796-jvmRun1 surefire-20260525193450010_1tmp surefire_0-20260525193450010_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\masha\AppData\Local\Temp\surefire1863959237619745560\surefirebooter-20260612184048555_3.jar C:\Users\masha\AppData\Local\Temp\surefire1863959237619745560 2026-06-12T18-40-48_454-jvmRun1 surefire-20260612184048555_1tmp surefire_0-20260612184048555_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="com.mycompany.part_123.MessageTest"/>
     <property name="surefire.test.class.path" value="C:\Users\masha\OneDrive - ADvTECH Ltd\Documents\myprojects\part_123\target\test-classes;C:\Users\masha\OneDrive - ADvTECH Ltd\Documents\myprojects\part_123\target\classes;C:\Users\masha\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\masha\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\masha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\masha\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\masha\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\masha\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\masha\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\masha\AppData\Local\Temp\surefire966813014349785877\surefirebooter-20260525193450010_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\masha\AppData\Local\Temp\surefire1863959237619745560\surefirebooter-20260612184048555_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.2+10-LTS"/>
@@ -62,10 +62,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testMessageHashContainsWords" classname="com.mycompany.part_123.MessageTest" time="0.062"/>
-  <testcase name="testInvalidRecipient" classname="com.mycompany.part_123.MessageTest" time="0.005"/>
-  <testcase name="testValidMessageLength" classname="com.mycompany.part_123.MessageTest" time="0.003"/>
-  <testcase name="testValidRecipientInternational" classname="com.mycompany.part_123.MessageTest" time="0.003"/>
-  <testcase name="testInvalidMessageLength" classname="com.mycompany.part_123.MessageTest" time="0.003"/>
-  <testcase name="testValidRecipientLocal" classname="com.mycompany.part_123.MessageTest" time="0.002"/>
+  <testcase name="testSearchById" classname="com.mycompany.part_123.MessageTest" time="0.021"/>
+  <testcase name="testRecipientValidation" classname="com.mycompany.part_123.MessageTest" time="0.0"/>
+  <testcase name="testDeleteByHash" classname="com.mycompany.part_123.MessageTest" time="0.001"/>
+  <testcase name="testMessageLengthValidation" classname="com.mycompany.part_123.MessageTest" time="0.001"/>
+  <testcase name="testArraysPopulated" classname="com.mycompany.part_123.MessageTest" time="0.001"/>
+  <testcase name="testSearchByRecipient" classname="com.mycompany.part_123.MessageTest" time="0.001"/>
+  <testcase name="testFindLongestMessage" classname="com.mycompany.part_123.MessageTest" time="0.001"/>
 </testsuite>
